@@ -372,6 +372,23 @@ main {
   margin-top: 0;
 }
 
+.association-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.association-logos.align-right {
+  align-items: flex-end;
+}
+
+.association-logos img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
 .contact-section {
   margin-bottom: 30px;
 }
