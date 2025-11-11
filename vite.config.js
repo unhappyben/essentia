@@ -21,6 +21,7 @@ export default defineConfig({
         overmijzelf: resolve(__dirname, 'over-mijzelf.html'),
         kosten: resolve(__dirname, 'kosten.html'),
         contact: resolve(__dirname, 'contact.html'),
+        klachten: resolve(__dirname, 'klachten.html'),
       }
     }
   }
